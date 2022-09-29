@@ -2,6 +2,7 @@
 primary color : #e67e22
 greys: #555, #333
 tints: #fae5d3
+shades: #cf711f
 */
 
 html {
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   color: #555;
   font-weight: 400;
@@ -53,6 +54,7 @@ body {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
+  font-weight: 600;
 
   text-decoration: none;
   padding: 1.6rem 3.2rem;
@@ -93,4 +95,37 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.delivered-meals {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 8rem;
+  align-items: center;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fae5d3;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
