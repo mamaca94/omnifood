@@ -214,3 +214,11 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
+}
