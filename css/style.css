@@ -378,6 +378,17 @@
   padding: 9.6rem 0;
 }
 
+.pricing-plan {
+  background-color: #fdf2e9;
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-part--starter {
+  justify-self: end;
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -391,7 +402,6 @@
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
-
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
@@ -404,7 +414,6 @@
   font-weight: 500;
   margin-right: 0.8rem;
 }
-
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
@@ -414,4 +423,8 @@
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
