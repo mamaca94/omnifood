@@ -1,8 +1,11 @@
 /* 
 primary color : #e67e22
 greys: #555, #333
-tints: #fae5d3 #fdf2e9 
+tints: #fae5d3 #fdf2e9 #eb984e
 shades: #cf711f
+
+
+shadow - box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 */
 
 html {
